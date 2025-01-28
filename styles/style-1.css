@@ -23,20 +23,20 @@
     padding: 0.9375em 6.25em;
 }
 
-.navbar ol {
+.navbar ul {
     float: right;
     justify-content: right;
     margin-right: 1.25em;
 }
 
-.navbar ol li {
+.navbar ul li {
     list-style: none;
     margin: 0 0.5em;
     display: inline-flex;
     line-height: 5em;
 }
 
-.navbar ol li a {
+.navbar ul li a {
     text-decoration: none;
     color: white;
     font-size: 1.25em;
@@ -45,7 +45,7 @@
     transition: color 0.4s, background-color 0.4s;
 }
 
-.navbar ol li a:hover {
+.navbar ul li a:hover {
     color: blue;
     border-radius: 0.125em;
 }
